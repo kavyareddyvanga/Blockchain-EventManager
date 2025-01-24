@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    
+    
+</head>
+
+<body>
+    <div class="events-bg-container">
+        <div class="container">
+            <h1 class="events-heading">Event Manager</h1>
+
+            <div class="working-hours-form">
+                <h2 class="working-hours-heading">
+                    Set <span class="working-hours-heading-subpart">Working Hours</span>
+                </h2>
+                <div class="time-inputs">
+                    <input type="time" id="workStart" class="time-input" aria-label="Work Start Time">
+                    <span>to</span>
+                    <input type="time" id="workEnd" class="time-input" aria-label="Work End Time">
+                </div>
+                <button class="set-hours-button" id="setHoursButton">Set Working Hours</button>
+            </div>
+
+            <div class="event-form">
+                <h2 class="create-event-heading">
+                    Create <span class="create-event-heading-subpart">Event</span>
+                </h2>
+                <input type="text" id="eventTitle" class="event-input" placeholder="Event Title" aria-label="Event Title">
+                <div class="time-inputs">
+                    <input type="time" id="startTime" class="time-input" aria-label="Start Time">
+                    <span>to</span>
+                    <input type="time" id="endTime" class="time-input" aria-label="End Time">
+                </div>
+                <button class="add-event-button" id="addEventButton">Add Event</button>
+            </div>
+
+            <div class="events-section">
+                <h2 class="events-list-heading">
+                    My <span class="events-list-heading-subpart">Schedule</span>
+                </h2>
+                <ul class="events-list" id="eventsList"></ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
