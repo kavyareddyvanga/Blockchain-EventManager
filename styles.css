@@ -1,0 +1,117 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fbfe;
+        }
+
+        .events-bg-container {
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .events-heading {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4c63b6;
+            margin-bottom: 2rem;
+        }
+
+        .event-form,
+        .working-hours-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .create-event-heading,
+        .working-hours-heading {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .create-event-heading-subpart,
+        .working-hours-heading-subpart {
+            font-weight: normal;
+        }
+
+        .event-input,
+        .time-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 1rem;
+            border: 1px solid #e4e7eb;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .time-inputs {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .time-input {
+            flex: 1;
+        }
+
+        .add-event-button,
+        .set-hours-button {
+            background-color: #4c63b6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .add-event-button:hover,
+        .set-hours-button:hover {
+            background-color: #3f51b5;
+        }
+
+        .events-list-heading {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .events-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .event-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            border-left: 4px solid #4c63b6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .event-time {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .delete-button {
+            background-color: #ff4d4f;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
